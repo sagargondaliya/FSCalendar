@@ -385,12 +385,12 @@ IB_DESIGNABLE
 /**
  A date object representing the minimum day enable、visible and selectable. (read-only)
  */
-@property (readonly, nonatomic) NSDate *minimumDate;
+@property (readwrite, nonatomic) NSDate *minimumDate;
 
 /**
  A date object representing the maximum day enable、visible and selectable. (read-only)
  */
-@property (readonly, nonatomic) NSDate *maximumDate;
+@property (readwrite, nonatomic) NSDate *maximumDate;
 
 /**
  A date object identifying the section of the selected date. (read-only)
